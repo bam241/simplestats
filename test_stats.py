@@ -10,5 +10,10 @@ def test_empty_list():
 #test_empty_list()
 
 def test_float_mean():
-	assert_almost_equals(mean([.5,.5,1]), .66, 1) # .66, 1-> can choose how close by degree
+	assert_almost_equals(mean([.5,.5,1]), .66, 1) # .66, 1-> can choose how close by degree 1_>2 or 3..
 #test_float_mean()
+
+
+def test_str_list_mean():
+	assert_equal(mean(['1','2','3']), 2.0)
+
